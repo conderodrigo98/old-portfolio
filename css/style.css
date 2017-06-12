@@ -40,7 +40,7 @@ h3 {
 
 .imgintro {
   width: 100%;
-  margin: 0px 0px 0px -15px;
+  margin: 0 0 0 -15px;
   position: absolute;
 }
 
@@ -128,9 +128,72 @@ p {
   color:#000000;
   background-color:#BBBBBB;
   text-align:center;
-  padding:2% 0% 2% 0%;
+  padding:2% 0 2% 0;
 }
 
 a{
   z-index:100;
+}
+
+@media screen and (max-width:480px){
+  
+  header{
+    background-color:rgb(187, 187, 187);
+    position: fixed;
+    margin-top:-27%;
+    height:10%;
+  }
+  
+  h3{
+    padding-left: 1%;
+    padding-top: 9%;
+  }
+  
+  .btn , .imgintro{
+    display:none;
+  }
+  
+  h1{
+    font-size:3em;
+    margin-top:30%;
+    margin-bottom:44%;
+  }
+  
+  .fa-arrow-circle-down{
+    top:10%;
+    left:42.5%;
+  }
+  
+  .about{
+    margin-right:-8%;
+  }
+  
+  .rounded-circle{
+    margin-left:15%;
+  }
+  
+  .portfolio{
+    margin-right:-5%;
+  }
+  
+  .portfolioTitle{
+    font-size:2em;
+  }
+  
+  .fa-envelope{
+    margin-left:44%;
+  }
+  
+  .fa-github{
+    margin-left:45%;
+  }
+  
+  .fa-facebook-f{
+    margin-left:47%;
+  }
+  
+  .fa-free-code-camp{
+    margin-left:42%;
+  }
+  
 }
