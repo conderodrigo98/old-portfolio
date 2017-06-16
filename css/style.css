@@ -145,13 +145,12 @@ a{
   header{
     background-color:rgb(187, 187, 187);
     position: fixed;
-    margin-top:-27%;
-    height:3%;
+    margin-top:-30%;
   }
   
   h3{
     padding-left: 1%;
-    padding-top: 9%;
+    padding-top: 5%;
   }
   
   .btn , .imgintro{
