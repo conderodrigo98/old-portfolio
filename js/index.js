@@ -3,8 +3,8 @@ $(document).ready(function(){
   
   //scroll si toco la flecha
   $(".fa-arrow-circle-down").click(function(){
-    var h = $(window).height();
-    $("html, body").animate({ scrollTop: h+1 }, 2000);
+    var h = $(window).height() * 0.9;
+    $("html, body").animate({ scrollTop: h }, 2000);
   });
   
   //resalto home si no bajo
@@ -12,20 +12,21 @@ $(document).ready(function(){
     
   //header solido y resalto la seccion  about y quito home cuando bajo 
   $(window).scroll(function(){
-    var vh = $(window).height();     
-    if ($(document).scrollTop() > vh) {
+    var h = ($(window).height() * 0.9)-1;     
+    if ($(document).scrollTop() > h) {
       $("#header").addClass("solidHeader");
       $("#abtn").addClass("btn2");
       $("#hbtn").removeClass("btn2");
     } else {
       $("#header").removeClass("solidHeader");
       $("#abtn").removeClass("btn2");
+      $("#hbtn").addClass("btn2");
     }
   });
   
   //resalto seccion port y quito a about cuando bajo 
   $(window).scroll(function(){
-    var h = ($(window).height()) * 1.7;     
+    var h = ($(window).height()) * 1.6;     
     if ($(document).scrollTop() > h) {
       $("#abtn").removeClass("btn2");
       $("#pbtn").addClass("btn2");
@@ -36,7 +37,7 @@ $(document).ready(function(){
   
   //resalto seccion contact y quito a port cuando bajo
   $(window).scroll(function(){
-    var h = ($(window).height()) * 2.45;     
+    var h = ($(window).height()) * 2.5;     
     if ($(document).scrollTop() > h) {
       $("#pbtn").removeClass("btn2");
       $("#cbtn").addClass("btn2");
