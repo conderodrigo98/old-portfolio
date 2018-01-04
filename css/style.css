@@ -77,6 +77,7 @@ p {
   text-align: center;
   padding-right:25%;
   padding-left:25%;
+  padding-bottom:25%;
   color:#fff;
 }
 
@@ -127,12 +128,21 @@ p {
   padding-bottom:2%;
 }
 
-.firma {
+.fa-envelope{
+    margin-left:44%;
+  }
+  
+  .fa-github{
+    margin-left:45%;
+  }
+  
+  .fa-free-code-camp{
+    margin-left:42%;
+  }
+
+.footer {
   width:100%;
-  font-size:0.6vw;
-  color:#000000;
   background-color:#BBBBBB;
-  text-align:center;
   padding:2% 0 2% 0;
 }
 
@@ -184,20 +194,8 @@ a{
     font-size:2em;
   }
   
-  .fa-envelope{
-    margin-left:44%;
-  }
+ 
+
   
-  .fa-github{
-    margin-left:45%;
-  }
-  
-  .fa-facebook-f{
-    margin-left:47%;
-  }
-  
-  .fa-free-code-camp{
-    margin-left:42%;
-  }
   
 }

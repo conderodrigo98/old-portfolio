@@ -93,12 +93,6 @@ $(document).ready(function(){
   $(".fa-github").mouseleave(function(){
     $(".fa-github").removeClass("fa-5x shadeC");
   });
-  $(".fa-facebook-f").mouseover(function(){
-    $(".fa-facebook-f").addClass("fa-5x shadeC");
-  });
-  $(".fa-facebook-f").mouseleave(function(){
-    $(".fa-facebook-f").removeClass("fa-5x shadeC");
-  });
    $(".fa-free-code-camp").mouseover(function(){
     $(".fa-free-code-camp").addClass("fa-5x shadeC");
   });
