@@ -84,7 +84,7 @@ p {
 .rounded-circle {
   width:75%;
   margin:auto;
-  padding: 2% 2% 2% 2%;
+  padding: 7.5% 2% 2% 2%;
 }
 
 .about {
@@ -170,7 +170,7 @@ a{
   h1{
     font-size:3em;
     margin-top:30%;
-    margin-bottom:44%;
+    margin-bottom:70%;
   }
   
   .fa-arrow-circle-down{
@@ -183,7 +183,7 @@ a{
   }
   
   .rounded-circle{
-    margin-left:15%;
+    margin:-25% 0% 10% 12.5%;
   }
   
   .portfolio{
@@ -192,10 +192,51 @@ a{
   
   .portfolioTitle{
     font-size:2em;
-  }
-  
- 
+  } 
+}
 
-  
-  
+@media screen and (max-width:481px) and (min-height:680px){
+  h1{
+    margin-bottom: 100%;
+  }
+}
+
+@media screen and (max-width:1400px) and (min-width: 481px){
+  .midHeader{
+    margin-right: -10%;
+  }
+
+  #cbtn{
+    margin-left: 50%;
+  }
+
+  .imgintro{
+    height: 100vh;
+    width:auto;
+  }
+
+  h1{
+    margin-bottom: 25%;
+  }
+
+  .rounded-circle{
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width:1000px) and (min-width: 481px){
+  .btn{
+    display: none;
+  }
+
+  h3{
+    margin-top: -4%;
+    margin-left: -10%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-aspect-ratio: 12/8){
+  h1{
+    margin-bottom: 10% ;
+  }
 }

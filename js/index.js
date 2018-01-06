@@ -3,8 +3,14 @@ $(document).ready(function(){
   
   //scroll si toco la flecha
   $(".fa-arrow-circle-down").click(function(){
-    var h = $(window).height() * 0.9;
-    $("html, body").animate({ scrollTop: h }, 2000);
+    var hPC = $(window).height();
+    var hMobile = $("h1").outerHeight(true);
+    if ($(window).width()<=480){
+      $("html, body").animate({ scrollTop: hMobile}, 2000);
+    }else{
+      $("html, body").animate({ scrollTop: hPC*0.9}, 2000);
+    }
+    
   });
   
   //resalto home si no bajo
