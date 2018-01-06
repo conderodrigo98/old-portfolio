@@ -106,4 +106,13 @@ $(document).ready(function(){
     $(".fa-free-code-camp").removeClass("fa-5x shadeC");
   });
   
+  //detecto orientación inadecuada
+  if(($(window).height() > $(window).width())&&($(window).width()>481)){
+    alert("Please rotate your device!");
+  }
+  if(($(window).width() > $(window).height())&&($(window).height()<481)){
+    alert("Please rotate your device!");
+  }
+  
+
 });
